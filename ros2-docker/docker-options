@@ -1,0 +1,18 @@
+# Docker build and run options
+# Add any custom docker arguments here
+
+# Get current user
+USER=$(whoami)
+
+# Build options
+BUILD_ARGS=""
+
+# Run options (e.g., volumes, ports, env vars)
+RUN_OPTIONS=""
+
+# Image name and tag
+IMAGE_NAME="ros2-humble"
+IMAGE_TAG="latest"
+
+# Container name
+CONTAINER_NAME="ros2-humble-container"
